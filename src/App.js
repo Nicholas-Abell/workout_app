@@ -11,7 +11,7 @@ import Footer from './Compnents/Footer';
 function App() {
   return (
     <Box width='400px' sx={{ width: { xl: '1448px' } }} m='auto'>
-      Navbar
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/exercise/:id' elemen={<ExerciseDetail />} />
